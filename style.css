@@ -18,7 +18,7 @@
 }
 .main .head {
 	font-size: 29px;
-	color: rgba(91, 14, 216, 0.767);
+	color: #3B3486;
 	position: relative;
 	margin-bottom: 100px;
 	font-weight: 500;
@@ -31,7 +31,7 @@
 	left: 50%;
 	bottom: -5px;
 	transform: translateX(-50%);
-	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+	background-color: #3B3486;
 }
 
 /* Container Css Start  */
@@ -53,7 +53,7 @@
 	left: 50%;
 	top: 0;
 	transform: translateX(-50%);
-	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+	background-color: #3B3486;
 }
 .container ul li {
 	width: 50%;
@@ -74,7 +74,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: #e100ff7a;
+	background-color: #3B3486;
 	top: 0;
 	display: grid;
 	place-items: center;
@@ -83,7 +83,7 @@
 	content: ' ';
 	width: 12px;
 	height: 12px;
-	background-color: #7f00ff;
+	background-color: #3B3486;
 	border-radius: 50%;
 }
 ul li:nth-child(odd) .circle {
@@ -98,7 +98,7 @@ ul li .date {
 	position: absolute;
 	width: 200px;
 	height: 33px;
-	background-image: linear-gradient(to right,#7f00ff,#e100ff);
+	background-color: #3B3486;
 	border-radius: 15px;
 	top: -45px;
 	display: grid;
@@ -134,7 +134,7 @@ ul li p {
 ul li a {
 	font-size: 13px;
 	text-decoration: none;
-	color: rgb(18, 54, 214);
+	color: #3B3486;
 	transition: all 0.3s ease;
 }
 
@@ -185,4 +185,5 @@ ul li a {
 	.container ul li .circle{
 		left: -20px;
 	}
+
 }
